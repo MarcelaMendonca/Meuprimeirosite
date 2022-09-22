@@ -1,0 +1,101 @@
+body{
+       background-color: rgba(25,25,112,0.5);
+       background-image: url(seatle.jpg);
+       font-family: 'Forum', cursiva;
+}
+      
+}
+.container{
+       width: 80%;
+       margin-right:auto;
+       margin-Left: auto;
+}
+header, footer{
+       background-color: rgba(25,25,112,0.5);
+       padding: 3%;
+}
+h1{
+       font-size: 2em;
+}
+
+h2{
+       font-size: 1.5em;
+       color: #fff;
+       text-align: center;
+}
+.titulos{
+       text-align: center;
+       color: #fff;
+       font-weight: bolder;
+       line-height: 2;
+}
+
+p{
+       color: #fff;
+       font-weight: bolder;
+       font-size: 1.2em;
+       text-align: justify;
+       margin-top: 2%;
+       margin-bottom: 2%;
+}
+ul li,ol li{
+       text-decoration: underline;
+       color: #fff;
+       font-size: 1.2;
+       font-weight: bolder;
+       line-height: 1.5;
+       list-style: none;
+}
+
+figure{
+
+       text-align: center;
+}
+.imgtexto {
+       border: 5px dashed rgba(25,25,112,0.5); 
+       width: 70%;
+       height: 60%;
+}
+.imglogo{
+       width: 25%;
+}
+
+a:link {
+       color: #0d0b49;
+       background-color: transparent;
+       text-decoration: none;
+     }
+     
+     a:visited {
+       color: #535194;
+       background-color: transparent;
+       text-decoration: none;
+     }
+     
+     a:hover {
+       color: #0d0b49;
+       background-color: transparent;
+       text-decoration: underline;
+     }
+     
+     a:active {
+       color: #0d0b49;
+       background-color: transparent;
+       text-decoration: underline;
+     }
+table{
+       border-collapse: collapse;
+       width: 80%;
+       color: #fff;
+       font-size: 1.2em;
+       margin-right: auto;
+       margin-left: auto;
+}
+td,th{
+       border: 5px dashed #fff;
+       padding: 3%;
+}
+
+tr:nth-child(even) {
+       background-color: #282747;
+}
