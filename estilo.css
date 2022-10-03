@@ -1,21 +1,83 @@
+/* tela menor que 599px */
+@media screen and (max-width: 599px){
+       .container{
+              margin-top: 65%;
+}
+}
+/* tela maior que 600px */
+@media screen and (min-width: 600px){
+       .container{
+              margin-top: 40%;
+}
+}
+/* telas maiores que 768px */
+@media screen and (min-width: 768px) {
+.container{ 
+       margin-top: 20%;
+}
+header{
+       background-color:  rgba(29, 29, 124, 0.3);
+       flex-direction: row;
+       position: relative;
+}
+.menu-opcoes{
+       position: absolute;
+       right: 5%;
+       top: 45%;
+}
+.menu-opcoes ul li{
+       display: inline;
+       margin-left: 10px;
+}
+}
+header, footer{
+       background-color: rgba(29, 29, 124);
+       padding: 1%;
+       position: relative;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       font-size: 1.5em;
+       line-height: bolder;
+}
+html{
+       scroll-behavior: smooth;
+}      
 body{
        background-color: rgba(25,25,112,0.5);
        background-image: url(seatle.jpg);
+       background-repeat: round;
        font-family: 'Forum', cursiva;
-}
-      
 }
 .container{
        width: 80%;
        margin-right:auto;
        margin-Left: auto;
+       position: relative;
+      
 }
-header, footer{
-       background-color: rgba(25,25,112,0.5);
-       padding: 3%;
+.menu-opcoes{
+       text-align: center;
+
+}
+.fixo{
+       position: fixed;
+       top: 0;
+       right: 0;
+       Left: 0;
+       z-index: 1030;
+}
+.ajustes{
+       line-height: 1;
+       text-align: center;
+}
+.ajustes li:hover{
+       background-color: rgba(3, 3, 48, 0.5)
 }
 h1{
        font-size: 2em;
+       text-align: center;
+       
 }
 
 h2{
@@ -46,6 +108,14 @@ ul li,ol li{
        line-height: 1.5;
        list-style: none;
 }
+.listastexto{
+       text-decoration: underline;
+       color: #fff;
+       font-weight: bolder;
+       margin-top: 1%;
+       margin-bottom: 1%;
+       font-size: 1em;
+}
 
 figure{
 
@@ -56,9 +126,6 @@ figure{
        width: 70%;
        height: 60%;
 }
-.imglogo{
-       width: 25%;
-}
 
 a:link {
        color: #0d0b49;
@@ -66,19 +133,19 @@ a:link {
        text-decoration: none;
      }
      
-     a:visited {
+a:visited {
        color: #535194;
        background-color: transparent;
        text-decoration: none;
      }
      
-     a:hover {
+a:hover {
        color: #0d0b49;
        background-color: transparent;
        text-decoration: underline;
      }
      
-     a:active {
+a:active {
        color: #0d0b49;
        background-color: transparent;
        text-decoration: underline;
